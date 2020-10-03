@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'download_path' => '/var/www/youtube_downloader/uploads',
+    'download_path' => '/var/www/youtube_downloader/uploads', //путь в системе куда будет загружаться видео с youtube перед отправкой его в dailymotion
     
     'dailymotion' => [
         'api_key' => 'api_keyv',
