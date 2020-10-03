@@ -1,0 +1,6 @@
+{
+  "require": {
+    "norkunas/youtube-dl-php": "dev-master",
+    "dailymotion/sdk": "dev-master"
+  }
+}

@@ -1,0 +1,14 @@
+<?php
+
+return [
+    'download_path' => '/var/www/youtube_downloader/uploads',
+    
+    'dailymotion' => [
+        'api_key' => 'api_keyv',
+        'api_secret' => 'api_secret',
+        'user' => 'user',
+        'pas' => 'pas',
+        'channel' => 'videogames',
+        'tags' => 'dailymotion,api,sdk,test',
+    ],
+];
