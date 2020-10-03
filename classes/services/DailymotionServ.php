@@ -6,7 +6,7 @@ require_once 'iService.php';
 
 //use youtube_parser\services\iService;
 
-class Dailymotion implements iService
+class DailymotionServ implements iService
 {
     private $api;
     
@@ -17,9 +17,9 @@ class Dailymotion implements iService
             'manage_videos',
         );
         // Dailymotion object instanciation
-        $this->api = new Dailymotion();
+        $this->api = new \Dailymotion();
         $this->api->setGrantType(
-            Dailymotion::GRANT_TYPE_PASSWORD,
+            \Dailymotion::GRANT_TYPE_PASSWORD,
             $api_key,
             $api_secret,
             $scopes,
